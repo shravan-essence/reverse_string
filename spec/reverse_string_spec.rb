@@ -5,7 +5,7 @@ RSpec.describe ReverseString do
     expect(ReverseString::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "reverses a string" do
+    expect(ReverseString.reverse("Hello, World!")).to eq("!dlroW ,olleH")
   end
 end
