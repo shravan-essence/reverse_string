@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "This gem is created for revsersing the string."
   spec.description = "This gem is created for revsersing the string."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/shravan-essence/reverse_string"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
